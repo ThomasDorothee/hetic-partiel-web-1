@@ -316,6 +316,10 @@
   font-weight: 700;
   cursor: pointer;
 }
+fieldset button:hover{
+	color:#CF9C67;
+	background-color: white;
+}
 
 /* Footer --------------------------------------------------------------------------------------------------------------- */
 
@@ -371,6 +375,10 @@
   width: 30px;
   font-size: 16px;
   text-align: center;
+}
+
+#footer a:hover{
+	color: black;
 }
 
 /* Copyright --------------------------------------------------------------------------------------------------------------- */
