@@ -830,6 +830,7 @@ input:focus, textarea:focus, *:required:focus {
 }
 
 .overlay.light::after {
+	background-image: url(../../images/demo/backgrounds/01.jpg);
   background-color: rgba(0, 0, 0, .55);
 }
 
@@ -867,7 +868,7 @@ input:focus, textarea:focus, *:required:focus {
 .row2 {
   color: #FFFFFF;
   background-color: #222222;
-	background-image:url('images/demo/backgrounds/02.png');
+  background-image: url('images/demo/backgrounds/02.png');
 }
 
 .row3 {
@@ -1110,13 +1111,15 @@ table a, #comments a {
     background-color: #FFFFFF;
   }
   #header {
+
     padding: 30px 0;
   }
   #header #logo {
+				text-align: center;
     margin-top: 3px;
   }
   #mainav {
-    display: block;
+    display: none;
   }
   #mainav ul {
     display: block;
@@ -1177,20 +1180,22 @@ table a, #comments a {
   #pageintro .heading {
     font-size: 2rem;
   }
+
+.one_half{
+	text-align: center;
+}
+
   .sectiontitle {
     max-width: none;
   }
-
-	.one_quarter {
-		text-align: center;
-		margin: 0 auto;
-		margin-bottom: 20px;
-	}
-
-  .latest article{
-		margin:  0 auto;
-	}
-
+  .one_quarter {
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+  .latest article {
+    margin: 0 auto;
+  }
   .services+footer {
     text-align: left;
   }
