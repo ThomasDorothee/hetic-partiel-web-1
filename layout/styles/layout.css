@@ -1180,6 +1180,17 @@ table a, #comments a {
   .sectiontitle {
     max-width: none;
   }
+
+	.one_quarter {
+		text-align: center;
+		margin: 0 auto;
+		margin-bottom: 20px;
+	}
+
+  .latest article{
+		margin:  0 auto;
+	}
+
   .services+footer {
     text-align: left;
   }
